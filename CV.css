@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #34495e;
+}
+.S {
+    background: white;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1250px;
+    padding: 20px;
+    box-shadow: 0 2px 20px gray;
+}
+
+.header h1{
+    margin-bottom: 5px;
+    position: absolute;
+    top: 90px;
+    right: 700px;
+}
+.header h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #34495e;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 130px;
+    right: 620px;
+}
+.header h3{
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 150px;
+    right: 770px;
+    
+}
+.Img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 15px auto;
+    border: 3px groove darkgray;
+    position: absolute;
+    top: 65px;
+    right: 920px;
+    
+}
+.Img img{
+    width: 100%;
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Lft{
+    flex: 1;
+    padding: 30px;
+
+}
+.Lft p{
+    line-height: 2;
+}
+.Lft ul li{
+    line-height: 2;
+}
+h5{
+    font-weight: 900;
+    font-size: 15px;
+}
+h4{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    color: #34495e;
+
+}
+.date{
+    word-spacing: 150px;
+    font-size: 11px;
+    color: #34495e;
+}
+.dev p{
+    width: 45%;
+    height: 30px;
+    background: transparent;
+    border-radius: 7px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-color: #34495e;
+    border-width: 0.5px;
+    color: black;
+    padding: 0.5px 3px 0.5px 0.5px;
+    font-size: 13px;
+    text-align: center;  
+    border-collapse: separate;
+    
+    float: left;
+
+   
+}
+.eng{
+    font-size: 14px;
+    word-spacing: 120px;
+}
+.urdu{
+    font-size: 12px;
+    word-spacing: 20px;
+    color: #34495e;
+}
+
+.Rt{
+    flex: 1;
+    padding: 30px;
+}
+.Rt p{
+    line-height: 2.9;
+}
+.Rt ul li{
+    line-height: 2;
+}
+.box p{
+    width: 60%;
+    height: 30px;
+    background: grey;
+    border-radius:8px;
+    color: white;
+    padding: 0.5px 3px 0.5px 0.5px;
+    font-size: 13px;
+    text-align: center;  
+    font-weight: bold;
+}
+.box p.ps{
+     width: 40%;
+     float: left;
+}
+.box p.c{
+    width: 15%;
+    float: left;
+
+
+}
+.box p.ss{
+     width: 30%;
+     float: left;
+}
+.btn{
+    border-style: solid;
+    background: #34495e;
+    padding: 7px;
+    cursor: pointer;
+    border: transparent;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    border-width: 20%;
+    
+}
+.b{
+    border-style: solid;
+    background: #34495e;
+    padding: 7px;
+    border: transparent;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    border-width: 20%;
+    position: absolute;
+    top: 180px;
+    right: 278px;
+    width: 58.3%;
+
+}
